@@ -1,0 +1,11 @@
+replace : https://www.w3schools.com/python/ref_string_replace.asp
+https://www.delftstack.com/es/howto/python/replace-characters-in-strings-python/
+https://www.delftstack.com/es/howto/python/remove-certain-characters-from-string-python/
+
+lowwer : https://j2logo.com/python/convertir-a-mayusculas-y-minusculas-en-python/#:~:text=Convertir%20texto%20a%20min%C3%BAsculas%20en,de%20la%20cadena%20en%20min%C3%BAsculas.
+
+ljust: https://www.delftstack.com/es/howto/python/python-pad-string-with-spaces/#:~:text=espacios%20en%20Python.-,Utilice%20la%20funci%C3%B3n%20ljust()%20para%20rellenar%20el%20extremo%20derecho,dos%20par%C3%A1metros%3A%20width%20y%20fillchar%20.
+
+remove : https://uniwebsidad.com/libros/python/capitulo-7/metodos-de-eliminacion
+
+manipular archivos txt : https://www.freecodecamp.org/espanol/news/python-abre-archivo-como-leer-un-archivo-de-texto-linea-por-linea/
