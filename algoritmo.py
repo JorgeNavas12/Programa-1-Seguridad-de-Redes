@@ -40,3 +40,32 @@ for x in range(count):
 
 print(textSplit)
 print(len(textSplit))
+
+#Para rellenar y completar el grupo
+for word in range(len(textSplit)):
+  mod = len(textSplit[word]) % group
+  if mod == 0:
+    pass
+  else:
+    add = group - (len(textSplit[word]) % group)
+    add = len(textSplit[word]) + add
+    textSplit[word] = textSplit[word].ljust(add, ".")
+
+print(textSplit)
+out = []
+#Para buscar el numero de letra en el diccionario
+for word in range(len(textSplit)):
+  for char in range(len(textSplit[word])):
+    if textSplit[word][char] in dictionary:
+      out.append(dictionary.index(textSplit[word][char]))
+    else:
+      out.append(" ")
+
+print(out)
+
+#imprimir grupos de 3
+
+pos = 0
+for num in range(int(len(out)/group)):
+  pos = num * group
+  print(out[pos:pos+group])

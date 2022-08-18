@@ -9,3 +9,7 @@ ljust: https://www.delftstack.com/es/howto/python/python-pad-string-with-spaces/
 remove : https://uniwebsidad.com/libros/python/capitulo-7/metodos-de-eliminacion
 
 manipular archivos txt : https://www.freecodecamp.org/espanol/news/python-abre-archivo-como-leer-un-archivo-de-texto-linea-por-linea/
+
+index directorio : https://pythonconejemplos.xyz/python/obtener-el-indice-o-la-posicion-de-un-elemento-en-una-lista-de-python/#:~:text=Para%20encontrar%20el%20%C3%ADndice%20de,el%20elemento%20pasado%20como%20argumento.&text=El%20m%C3%A9todo%20%C2%ABindex()%C2%BB%20devuelve,elemento%20especificado%20en%20la%20Lista.
+
+append: https://devcode.la/tutoriales/listas-python/
