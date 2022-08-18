@@ -1,0 +1,4 @@
+Hola, mi nombre es jorge. Soy estudiante en el curso de seguridad de redes.
+#Cosas por hacer
+1. Verificar entradas y formatos.
+2. Filtrar el texto en grupos de 3
