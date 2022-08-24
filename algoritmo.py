@@ -52,6 +52,15 @@ for word in range(len(textSplit)):
       out.append(" ")
 
 
+#Para mirar la letra que pertenece a cada numero
+outWord = []
+for num in range(len(out)):
+  if out[num] == " ":
+    outWord.append(" ")
+  else:
+    outWord.append(dictionary[out[num]])
+
+
 #imprimir en los grupos configurados
 pos = 0
 for num in range(int(len(out)/group)):
