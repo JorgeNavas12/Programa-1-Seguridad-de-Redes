@@ -1,10 +1,10 @@
-nameFile = "entrada.txt"
+nameFile = "Novelas_y_fantasías.txt"
 group = 3
 dictionary = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
              "á", "é", "í", "ó", "ú"]
 
 
-file = open(nameFile, "r")
+file = open(nameFile, "r", encoding='utf8')
 textSplit = file.read().split("   \n    ")## se separa por algo que no exista para dejar una lista de tamaño 1
 
 
@@ -61,8 +61,17 @@ for num in range(len(out)):
     outWord.append(dictionary[out[num]])
 
 
-#imprimir en los grupos configurados
-pos = 0
-for num in range(int(len(out)/group)):
-  pos = num * group
-  print(out[pos:pos+group])
+#imprimir en los grupos configurados (OPCION 1)
+# pos = 0
+# for num in range(int(len(out)/group)):
+#   pos = num * group
+#   print(out[pos:pos+group])
+
+#OPCION 2 (MEJOR)
+out = [out[i:i + group] for i in range(0, len(out), group)]
+outWord = [outWord[i:i + group] for i in range(0, len(outWord), group)]
+
+
+#visualizacion de los primeros 100 grupos
+for i in range(100):
+  print(out[i], " --> ", outWord[i])
